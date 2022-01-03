@@ -321,7 +321,7 @@ hero
   margin-top: 20px;
 }
 
-.swiper-container-horizontal > .swiper-scrollbar {
+.swiper-horizontal>.swiper-scrollbar {
   display: none;
 }
 

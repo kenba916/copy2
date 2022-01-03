@@ -335,6 +335,7 @@ hero
   margin-top: -20px;
   background: transparent url(arrow-prev.svg) no-repeat center center/contain;
   left: calc(50% - 600px);
+  z-index: 2;
 }
 
 .swiper-button-prev::after {
@@ -361,6 +362,7 @@ hero
   margin-top: -20px;
   background: transparent url(arrow-next.svg) no-repeat center center/contain;
   right: calc(50% - 600px);
+    z-index: 2;
 }
 
 .swiper-button-next::after {
@@ -382,10 +384,11 @@ hero
 }
 
 .swiper-pagination-bullet {
-  width: 16px;
+/*   width: 16px;
   height: 16px;
   background: #FFFFFF9E;
-  opacity: 1;
+  opacity: 1; */
+  display: none;
 }
 
 @media (max-width: 767px) {

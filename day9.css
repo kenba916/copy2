@@ -491,9 +491,7 @@ card
 
 .card-items {
     margin-top: 80px;
-    //df
     display: flex;
-    //要素の改行
     flex-wrap: wrap;
 
     @include mq ('sp') {
@@ -504,7 +502,7 @@ card
 .card-item {
     width: calc(33.3% - 24px * 2 / 3);
     // width: 100%;
-    background: rgb(129, 87, 87);
+    background: #fff;
     padding: 16px;
     border-radius: 4px;
     

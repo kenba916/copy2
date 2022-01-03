@@ -503,7 +503,7 @@ card
 
 .card-item {
   width: calc(33.3% - 24px * 2 / 3);
-  background: #815757;
+  background: #fff;
   padding: 16px;
   border-radius: 4px;
 }

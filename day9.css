@@ -756,6 +756,10 @@ price
   padding: 0 24px;
   height: 58px;
   vertical-align: middle;
+  
+  @media (max-width: 767px) {
+  padding: 0 12px;
+  }
 }
 
 .table th {
@@ -770,7 +774,7 @@ price
 
 @media (max-width: 767px) {
   .table th:nth-child(1) {
-    width: 112px;
+    width: 80px;
   }
 }
 
